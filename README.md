@@ -20,8 +20,8 @@
 
 
 
-[API 명세서](http://zeldahagoshipda.com](https://pinto-flat-b1e.notion.site/API-458fc9c5131b4d769ca6a99ae6576e6f?pvs=4))
-
+[API 명세서](http://zeldahagoshipda.com](https://pinto-flat-b1e.notion.site/API-458fc9c5131b4d769ca6a99ae6576e6f?pvs=4 ) 
+<br>
 <br>
 **상세 명세**
 
