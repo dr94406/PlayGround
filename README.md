@@ -16,9 +16,13 @@
 `ver.1`
 
 게시판에 대한 CRUD를 REST API 및 MyBatis 로 작성하기
-이후 API 통신 테스트와 DB Connection 하여 결과 확인하기.
-### [API 명세서] (https://pinto-flat-b1e.notion.site/API-458fc9c5131b4d769ca6a99ae6576e6f?pvs=4)
+이후 API 통신 테스트와 DB Connection 하여 결과 확인하기. <br>
 
+
+
+[API 명세서](http://zeldahagoshipda.com](https://pinto-flat-b1e.notion.site/API-458fc9c5131b4d769ca6a99ae6576e6f?pvs=4))
+
+<br>
 **상세 명세**
 
 - [x]  요구사항에 맞게 프로젝트 세팅
