@@ -1,12 +1,10 @@
 package com.happy.play.entity;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import lombok.Builder;
 import lombok.Getter;
 
-@Getter
-@Builder
 @Schema(description = "게시판 정보")
+@Getter
 public class Board {
 
     @Schema(description = "게시글 아이디", defaultValue = "auto_increment")

@@ -2,9 +2,7 @@ package com.happy.play.controller;
 
 import com.happy.play.entity.Board;
 import com.happy.play.mapper.BoardMapper;
-import io.swagger.annotations.ApiResponse;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
