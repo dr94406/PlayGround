@@ -29,5 +29,5 @@
 - [x]  MyBatis와 H2 DB 연동하기
 - [x]  게시글 CRUD 작성 및 API Check
 - [x]  API 명세서 작성하기
-- [ ]  Swagger 연동 및 확인 (관련 Annotation 필히 추가)
+- [x]  Swagger 연동 및 확인 (관련 Annotation 필히 추가)
 - [ ]  Lambda, Stream과  jdk 11 기능 적용
