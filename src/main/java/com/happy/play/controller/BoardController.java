@@ -27,7 +27,7 @@ public class BoardController {
     /* insert */
     @PostMapping(path = "/save", produces = MediaType.APPLICATION_JSON_VALUE)
     @Operation(summary = "게시글 저장", description = "게시글을 저장합니다.")
-    public int save(@RequestBody Board board) {
+    public int save(Board board) {
         return boardMapper.save(board);
     }
 
@@ -41,13 +41,13 @@ public class BoardController {
     /* update */
     @PutMapping(path = "/update", produces = MediaType.APPLICATION_JSON_VALUE)
     @Operation(summary = "게시글 수정", description = "게시글을 수정합니다.")
-    public int update(@RequestBody Board board) {
+    public int update(Board board) {
         return boardMapper.update(board);
     }
     /* delete */
     @DeleteMapping(path = "/delete/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @Operation(summary = "게시글 삭제", description = "게시글을 삭제합니다.")
-    public int delete(@RequestBody Board board, @PathVariable int id) {
+    public int delete(@PathVariable int id) {
         return boardMapper.delete(id);
         }
 }
